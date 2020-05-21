@@ -6,9 +6,9 @@ from email.mime.multipart import MIMEMultipart
 from email.mime.application import MIMEApplication
 
 def Sendmail():
-    fromaddr = '1061981298@qq.com'
-    password = 'rmflhlbeshdpbbhh'
-    toaddrs = ['35257286@qq.com']
+    fromaddr = 'www@qq.com'
+    password = '111'
+    toaddrs = ['222@qq.com']
 
     content = 'hello, this is email content.'
     textApart = MIMEText(content)
