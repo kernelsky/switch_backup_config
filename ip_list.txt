@@ -1,0 +1,86 @@
+*cmd* 'TYPE A'
+*put* 'TYPE A\r\n'
+*get* '200 Type set to A.\r\n'
+*resp* '200 Type set to A.'
+*cmd* 'PASV'
+*put* 'PASV\r\n'
+*get* '227 Entering Passive Mode (10,100,8,173,205,158)\r\n'
+*resp* '227 Entering Passive Mode (10,100,8,173,205,158)'
+*cmd* 'LIST'
+*put* 'LIST\r\n'
+*get* '150 Opening ASCII mode data connection for /bin/ls.\r\n'
+*resp* '150 Opening ASCII mode data connection for /bin/ls.'
+-rw-rw-rw-   1 user     group        1249 May  6 16:25 10.10.4.1_20200506162532.zip
+-rw-rw-rw-   1 user     group        1249 May  6 11:52 10.10.4.111.zip
+-rw-rw-rw-   1 user     group        1249 May  6 12:21 10.10.4.111_20200506122141.zip
+-rw-rw-rw-   1 user     group        1249 May  6 12:26 10.10.4.111_20200506122608.zip
+-rw-rw-rw-   1 user     group        1249 May  6 12:32 10.10.4.111_20200506123214.zip
+-rw-rw-rw-   1 user     group        1249 May  6 13:24 10.10.4.111_20200506132433.zip
+-rw-rw-rw-   1 user     group        1249 May  6 13:26 10.10.4.111_20200506132647.zip
+-rw-rw-rw-   1 user     group        1249 May  6 13:28 10.10.4.111_20200506132838.zip
+-rw-rw-rw-   1 user     group        1249 May  6 13:29 10.10.4.111_20200506132911.zip
+-rw-rw-rw-   1 user     group        1249 May  6 13:29 10.10.4.111_20200506132951.zip
+-rw-rw-rw-   1 user     group        1249 May  6 13:30 10.10.4.111_20200506133051.zip
+-rw-rw-rw-   1 user     group        1249 May  6 13:35 10.10.4.111_20200506133517.zip
+-rw-rw-rw-   1 user     group        1249 May  6 13:36 10.10.4.111_20200506133612.zip
+-rw-rw-rw-   1 user     group        1249 May  6 13:36 10.10.4.111_20200506133639.zip
+-rw-rw-rw-   1 user     group        1249 May  6 13:37 10.10.4.111_20200506133735.zip
+-rw-rw-rw-   1 user     group        1249 May  6 13:39 10.10.4.111_20200506133915.zip
+-rw-rw-rw-   1 user     group        1249 May  6 13:40 10.10.4.111_20200506133958.zip
+-rw-rw-rw-   1 user     group        1249 May  6 14:23 10.10.4.111_20200506142344.zip
+-rw-rw-rw-   1 user     group        1249 May  6 14:36 10.10.4.111_20200506143651.zip
+-rw-rw-rw-   1 user     group        1249 May  6 14:41 10.10.4.111_20200506144142.zip
+-rw-rw-rw-   1 user     group        1249 May  6 14:42 10.10.4.111_20200506144233.zip
+-rw-rw-rw-   1 user     group        1249 May  6 15:22 10.10.4.111_20200506152250.zip
+-rw-rw-rw-   1 user     group        1249 May  6 15:23 10.10.4.111_20200506152348.zip
+-rw-rw-rw-   1 user     group        1249 May  6 15:30 10.10.4.111_20200506153019.zip
+-rw-rw-rw-   1 user     group        1249 May  6 15:35 10.10.4.111_20200506153540.zip
+-rw-rw-rw-   1 user     group        1249 May  6 15:38 10.10.4.111_20200506153802.zip
+-rw-rw-rw-   1 user     group        1249 May  6 15:39 10.10.4.111_20200506153943.zip
+-rw-rw-rw-   1 user     group        1249 May  6 15:40 10.10.4.111_20200506154046.zip
+-rw-rw-rw-   1 user     group        1249 May  6 15:45 10.10.4.111_20200506154525.zip
+-rw-rw-rw-   1 user     group        1249 May  6 15:46 10.10.4.111_20200506154629.zip
+-rw-rw-rw-   1 user     group        1249 May  6 15:48 10.10.4.111_20200506154806.zip
+-rw-rw-rw-   1 user     group        1249 May  6 15:48 10.10.4.111_20200506154856.zip
+-rw-rw-rw-   1 user     group        1249 May  6 15:55 10.10.4.111_20200506155459.zip
+-rw-rw-rw-   1 user     group        1249 May  6 15:58 10.10.4.111_20200506155836.zip
+-rw-rw-rw-   1 user     group        1249 May  6 16:02 10.10.4.111_20200506160255.zip
+-rw-rw-rw-   1 user     group        1249 May  6 16:03 10.10.4.111_20200506160319.zip
+-rw-rw-rw-   1 user     group        1249 May  6 16:04 10.10.4.111_20200506160430.zip
+-rw-rw-rw-   1 user     group        1249 May  6 16:05 10.10.4.111_20200506160504.zip
+-rw-rw-rw-   1 user     group        1249 May  6 16:06 10.10.4.111_20200506160629.zip
+-rw-rw-rw-   1 user     group        1249 May  6 16:09 10.10.4.111_20200506160921.zip
+-rw-rw-rw-   1 user     group        1249 May  6 16:09 10.10.4.111_20200506160937.zip
+-rw-rw-rw-   1 user     group        1249 May  6 16:10 10.10.4.111_20200506161042.zip
+-rw-rw-rw-   1 user     group        1249 May  6 16:12 10.10.4.111_20200506161158.zip
+-rw-rw-rw-   1 user     group        1249 May  6 16:12 10.10.4.111_20200506161247.zip
+-rw-rw-rw-   1 user     group        1249 May  6 16:13 10.10.4.111_20200506161301.zip
+-rw-rw-rw-   1 user     group        1249 May  6 16:16 10.10.4.111_20200506161608.zip
+-rw-rw-rw-   1 user     group        1249 May  6 16:17 10.10.4.111_20200506161725.zip
+-rw-rw-rw-   1 user     group        1249 May  6 16:18 10.10.4.111_20200506161757.zip
+-rw-rw-rw-   1 user     group        1249 May  6 16:18 10.10.4.111_20200506161813.zip
+-rw-rw-rw-   1 user     group        1249 May  6 16:18 10.10.4.111_20200506161832.zip
+-rw-rw-rw-   1 user     group        1249 May  6 16:24 10.10.4.111_20200506162419.zip
+-rw-rw-rw-   1 user     group        1249 May  6 16:27 10.10.4.111_20200506162752.zip
+-rw-rw-rw-   1 user     group        1249 May  6 16:31 10.10.4.111_20200506163132.zip
+-rw-rw-rw-   1 user     group        1249 May  6 16:33 10.10.4.111_20200506163313.zip
+-rw-rw-rw-   1 user     group        1249 May  6 16:34 10.10.4.111_20200506163402.zip
+-rw-rw-rw-   1 user     group        1249 May  6 16:48 10.10.4.111_20200506164807.zip
+-rw-rw-rw-   1 user     group        1249 May  6 16:49 10.10.4.111_20200506164911.zip
+-rw-rw-rw-   1 user     group        1249 May  6 16:52 10.10.4.111_20200506165207.zip
+-rw-rw-rw-   1 user     group        1249 May  6 16:54 10.10.4.111_20200506165357.zip
+-rw-rw-rw-   1 user     group        1249 May  6 16:56 10.10.4.111_20200506165611.zip
+-rw-rw-rw-   1 user     group        1249 May  6 16:56 10.10.4.111_20200506165639.zip
+-rw-rw-rw-   1 user     group        1249 May  6 16:57 10.10.4.111_20200506165722.zip
+-rw-rw-rw-   1 user     group        1249 May  6 16:58 10.10.4.111_20200506165756.zip
+-rw-rw-rw-   1 user     group        1249 May  6 16:58 10.10.4.111_20200506165843.zip
+-rw-rw-rw-   1 user     group        1249 May  6 16:59 10.10.4.111_20200506165901.zip
+-rw-rw-rw-   1 user     group        1249 May  6 17:24 10.10.4.111_20200506172429.zip
+-rw-rw-rw-   1 user     group        1249 May  6 17:42 10.10.4.111_20200506174202.zip
+-rw-rw-rw-   1 user     group        1249 May  6 17:43 10.10.4.111_20200506174321.zip
+-rw-rw-rw-   1 user     group        1249 May  6 17:54 10.10.4.111_20200506175449.zip
+-rw-rw-rw-   1 user     group        1249 May  6 16:29 10.10.4.123_20200506162939.zip
+-rw-rw-rw-   1 user     group     1006959 Apr 29 09:22 mysql-connector-java-5.1.48-bin.jar
+-rw-rw-rw-   1 user     group        1249 May  6 11:35 vrpcfg.zip
+*get* '226 Transfer complete. 6,232 bytes transferred. 6.09 KB/sec.\r\n'
+*resp* '226 Transfer complete. 6,232 bytes transferred. 6.09 KB/sec.'

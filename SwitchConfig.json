@@ -1,0 +1,19 @@
+{
+	"backFileMode": "local",
+	"switch": [{
+		"ip": "10.10.4.111",
+		"port": "22",
+		"username": "zhangkun",
+		"password": "Cam@2019725",
+		"ftpserver": "10.100.8.173",
+		"ftpuser": "switch",
+		"ftppasswd": "Hello123",
+		"protocol": "ssh",
+		"cmd": "display current-configuration",
+		"PS1": ["<Core-S5700>"],
+		"desc": "S5700核心交换机",
+		"isNeedEnableMode": "0",
+		"enablePassword": "",
+		"fileName": "core_s5700_10.10.4.111.txt"
+	}]
+}
